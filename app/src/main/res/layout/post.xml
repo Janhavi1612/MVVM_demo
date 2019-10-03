@@ -10,15 +10,22 @@
         <TextView
             android:id="@+id/Name"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="25dp"
             android:layout_weight="1"
+            android:clickable="false"
             android:text="TextView" />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_height="200dp" />
+
         <TextView
-            android:id="@+id/Id"
+            android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="225dp"
             android:layout_weight="1"
             android:text="TextView" />
     </RelativeLayout>
